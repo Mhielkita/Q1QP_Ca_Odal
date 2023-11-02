@@ -1,0 +1,330 @@
+@font-face {
+    font-family: Mokoto;
+    src: url(Mokoto.ttf);
+}
+@font-face{
+    font-family: Box;
+    src: url(NeutronsDemoRegular.ttf)
+}
+@font-face {
+    font-family: Play;
+    src: url(PlayPretend.otf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    border: 1px solid black;
+    text-align: right;
+    height: 4%;
+    padding: 15px;
+    background-color: #021721;
+}
+#navbar div{
+    display: inline;
+}
+#home a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    font-family: Mokoto;
+}
+#intro a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+}
+#data a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+}
+#results a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+}
+#logo{
+    margin: left;
+    float: left;
+}
+#content{
+    background-image: url(bg2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#content h1{
+    float: right;
+    font-size: 50px;
+    margin-right: 10vh;
+    font-family: Box;
+    font-size: 50px;
+}
+#content p{
+    float: right;
+    margin-left:69vh;
+    margin-top: 7vh;
+    margin-right: -37.5vw;
+    font-size: 25px;
+}
+#content a{
+    float: right;
+    margin-left:69vh;
+    margin-right: -61.7vw;
+    margin-top: 13vh;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+#footer{
+    background-color: #021721;
+    border: 1px solid black;
+    background-size: 100%;
+    padding: 15px;
+    color: white;
+}
+#socmed{
+    float: right;
+    margin-right: 15px;
+}
+#home2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+}
+#intro2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+    font-size: 20px;
+}
+#data2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+    font-size: 20px;
+}
+#results2 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+    font-size: 20px;
+}
+#content2{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#content2 .intro{
+    margin-left: 16.5vw;
+    margin-top: -20vw;
+    font-family: Box;
+    font-size: 45px;
+}
+#content2 p{
+    text-align: justify;
+    margin-left: 56vw;
+    margin-right:6.5vw;
+    font-size: 23px
+}
+#photo1{
+    margin-left: 4.5vw;
+    margin-top: -23vw;
+}
+#content3{
+    background-image: url(bgfinal.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#content4{
+    background-image: url(bg5.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#sidelinks{
+    padding: 1vw;
+    padding-top: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    height: 20vw;
+    width: 10vw;
+    float: right;
+    margin-right: 1vw;
+    margin-top: -20vw;
+    background-color: #021721;
+}
+#links a{
+    float: right;
+    border: 2px solid#ffffff;
+    margin-bottom: 1vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding: 1vw;
+    color: #ffffff;
+    width: 6vw;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-family: Mokoto;
+}
+#links a:hover{
+    background-color: rgb(160, 204, 243);
+    color:#021721;
+}
+#content3 h1{
+    margin-top: -20vw;
+    margin-left: 5vw;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Box;
+}
+#content3 p{
+    margin-left: 5vw;
+    text-align: justify;
+    margin-right: 25vw;
+    font-size: 35px;
+    margin-top: 3vw;
+    color: rgb(255, 255, 255)
+}
+#content3 ol{
+    margin-left: 8vw;
+    text-align: justify;
+    margin-right: 30vw;
+    font-size: 30px;
+    margin-top: 2.5vw;
+}
+#content5{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#content5 .intro2{
+    margin-left: 4.5vw;
+    margin-top: -20vw;
+}
+#content5 p{
+    text-align: justify;
+    margin-left: 54vw;
+    margin-right:15vw;
+    font-size: 23px
+}
+#photo2{
+    margin-left: 4.5vw;
+    margin-top: -23vw;
+}
+#content6{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#content6 .intro3{
+    margin-left: 4.5vw;
+    margin-top: -20vw;
+}
+#content6 p{
+    text-align: justify;
+    margin-left: 54vw;
+    margin-right:15vw;
+    font-size: 23px
+}
+#photo3{
+    margin-left: 4.5vw;
+    margin-top: -30vw;
+}
+#content7{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#content7 .intro4{
+    margin-left: 4.5vw;
+    margin-top: -20vw;
+}
+#content7 p{
+    text-align: justify;
+    margin-left: 48vw;
+    margin-right:15vw;
+    font-size: 23px
+}
+#photo4{
+    margin-left: 4.5vw;
+    margin-top: -40vw;
+}
+#content8{
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 8.5vh;
+    color:white;
+    padding-top: 40vh;
+    padding-bottom: 40vh;
+}
+#content8 .intro5{
+    margin-left: 4.5vw;
+    margin-top: -20vw;
+}
+#content8 p{
+    text-align: justify;
+    margin-left: 48vw;
+    margin-right:15vw;
+    font-size: 23px
+}
+#photo5{
+    margin-left: 4.5vw;
+    margin-top: -25vw;
+}
+#content4 h1{
+    margin-top: -20vw;
+    margin-left: 5vw;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Box;
+}
+#content4 ul{
+    margin-left: 8vw;
+    text-align: justify;
+    margin-right: 30vw;
+    font-size: 30px;
+    margin-top: 2.5vw;
+}

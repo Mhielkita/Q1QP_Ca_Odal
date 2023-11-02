@@ -14,46 +14,46 @@
     padding: 0px;
     margin: 0px;
 }
-#navbar{
+#navbar{ /* overall navbar design */
     border: 1px solid black;
     text-align: right;
     height: 4%;
     padding: 15px;
     background-color: #021721;
 }
-#navbar div{
+#navbar div{ /* to put everything in one line */
     display: inline;
 }
-#home a{
+#home a{ /* for the home button in the navbar */
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 20px;
     margin-right: 10px;
     font-family: Mokoto;
 }
-#intro a{
+#intro a{ /* navbar intro button */
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 10px;
     font-family: Mokoto;
 }
-#data a{
+#data a{ /* results button in navbar */
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 10px;
     font-family: Mokoto;
 }
-#results a{
+#results a{ /* references button in navbar */
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 10px;
     font-family: Mokoto;
 }
-#logo{
+#logo{ /* for the logo/favicon in the upper left corner of the navbar*/
     margin: left;
     float: left;
 }
-#content{
+#content{ /* the body of homepage */
     background-image: url(bg2.avif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,21 +62,21 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#content h1{
+#content h1{ /* the homepage title */
     float: right;
     font-size: 50px;
     margin-right: 10vh;
     font-family: Box;
     font-size: 50px;
 }
-#content p{
+#content p{ /* text below title */
     float: right;
     margin-left:69vh;
     margin-top: 7vh;
     margin-right: -37.5vw;
     font-size: 25px;
 }
-#content a{
+#content a{ /* the next button below the text*/
     float: right;
     margin-left:69vh;
     margin-right: -61.7vw;
@@ -88,45 +88,45 @@
     color: white;
     text-decoration: none;
 }
-#footer{
+#footer{ /* to design the footer */
     background-color: #021721;
     border: 1px solid black;
     background-size: 100%;
     padding: 15px;
     color: white;
 }
-#socmed{
+#socmed{ /* socmed icons */
     float: right;
     margin-right: 15px;
 }
-#home2 a{
+#home2 a{ /* I used this to make my HOME button in my homepage big, this is to indicate that they are on the homepage*/
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 10px;
     font-family: Mokoto;
 }
-#intro2 a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    margin-right: 10px;
-    font-family: Mokoto;
-    font-size: 20px;
-}
-#data2 a{
+#intro2 a{ /* this is for the intro button in the intro page, to make it big*/
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 10px;
     font-family: Mokoto;
     font-size: 20px;
 }
-#results2 a{
+#data2 a{ /* for the results button in the results page*/
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 10px;
     font-family: Mokoto;
     font-size: 20px;
 }
-#content2{
+#results2 a{ /*for the references button in the references page*/
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: Mokoto;
+    font-size: 20px;
+}
+#content2{ /* for the body of the intro*/
     background-image: url(background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,23 +135,23 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#content2 .intro{
+#content2 .intro{ /*for the title of the intro page*/
     margin-left: 16.5vw;
     margin-top: -20vw;
     font-family: Box;
     font-size: 45px;
 }
-#content2 p{
+#content2 p{ /*for the paragraph in the intro page*/
     text-align: justify;
     margin-left: 56vw;
     margin-right:6.5vw;
     font-size: 23px
 }
-#photo1{
+#photo1{ /*for the image in the intro page */
     margin-left: 4.5vw;
     margin-top: -23vw;
 }
-#content3{
+#content3{ /*for the body of the results page*/
     background-image: url(bgfinal.avif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#content4{
+#content4{ /* for the body of the references page*/
     background-image: url(bg5.avif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#sidelinks{
+#sidelinks{ /*for the container of the floating links on the side*/
     padding: 1vw;
     padding-top: 50px;
     border: 3px solid rgb(255, 255, 255);
@@ -182,7 +182,7 @@
     margin-top: -20vw;
     background-color: #021721;
 }
-#links a{
+#links a{ /*for the actual links on the side*/
     float: right;
     border: 2px solid#ffffff;
     margin-bottom: 1vh;
@@ -196,18 +196,18 @@
     text-align: center;
     font-family: Mokoto;
 }
-#links a:hover{
+#links a:hover{ /*to make the effect when you hover on a link*/
     background-color: rgb(160, 204, 243);
     color:#021721;
 }
-#content3 h1{
+#content3 h1{ /* for the title of the results page*/
     margin-top: -20vw;
     margin-left: 5vw;
     font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: Box;
 }
-#content3 p{
+#content3 p{ /*for the text on the results page*/
     margin-left: 5vw;
     text-align: justify;
     margin-right: 25vw;
@@ -215,14 +215,14 @@
     margin-top: 3vw;
     color: rgb(255, 255, 255)
 }
-#content3 ol{
+#content3 ol{ /*for the list on the results page*/
     margin-left: 8vw;
     text-align: justify;
     margin-right: 30vw;
     font-size: 30px;
     margin-top: 2.5vw;
 }
-#content5{
+#content5{ /*for the body of the Data for Sex of respondents page*/
     background-image: url(background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,21 +231,21 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#content5 .intro2{
+#content5 .intro2{ /*for the title of the sex of respondents page*/
     margin-left: 4.5vw;
     margin-top: -20vw;
 }
-#content5 p{
+#content5 p{ /*for the text on the sex of respondents page*/
     text-align: justify;
     margin-left: 54vw;
     margin-right:15vw;
     font-size: 23px
 }
-#photo2{
+#photo2{ /*for the photo of the date for the sex of respondents page*/
     margin-left: 4.5vw;
     margin-top: -23vw;
 }
-#content6{
+#content6{ /* for the body of the socmed page*/
     background-image: url(background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -254,21 +254,21 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#content6 .intro3{
+#content6 .intro3{ /*for the title of the socmed page*/
     margin-left: 4.5vw;
     margin-top: -20vw;
 }
-#content6 p{
+#content6 p{ /*for the text on the socmed page*/
     text-align: justify;
     margin-left: 54vw;
     margin-right:15vw;
     font-size: 23px
 }
-#photo3{
+#photo3{ /*for the photo on the socmed page*/
     margin-left: 4.5vw;
     margin-top: -30vw;
 }
-#content7{
+#content7{ /* for the body of the age page*/
     background-image: url(background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -277,21 +277,21 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#content7 .intro4{
+#content7 .intro4{ /*for the title of the age page*/
     margin-left: 4.5vw;
     margin-top: -20vw;
 }
-#content7 p{
+#content7 p{ /*for the text on the age page*/
     text-align: justify;
     margin-left: 48vw;
     margin-right:15vw;
     font-size: 23px
 }
-#photo4{
+#photo4{ /*for the image in the age page*/
     margin-left: 4.5vw;
     margin-top: -40vw;
 }
-#content8{
+#content8{ /* for the body of the time page*/
     background-image: url(background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -300,28 +300,28 @@
     padding-top: 40vh;
     padding-bottom: 40vh;
 }
-#content8 .intro5{
+#content8 .intro5{ /* for the title in the time page*/
     margin-left: 4.5vw;
     margin-top: -20vw;
 }
-#content8 p{
+#content8 p{ /* for the text, time page*/
     text-align: justify;
     margin-left: 48vw;
     margin-right:15vw;
     font-size: 23px
 }
-#photo5{
+#photo5{ /*for the photo | time page*/
     margin-left: 4.5vw;
     margin-top: -25vw;
 }
-#content4 h1{
+#content4 h1{ /* for the title of the references page*/
     margin-top: -20vw;
     margin-left: 5vw;
     font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: Box;
 }
-#content4 ul{
+#content4 ul{ /* for the unordered list in the references page*/
     margin-left: 8vw;
     text-align: justify;
     margin-right: 30vw;
